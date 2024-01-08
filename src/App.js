@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+// import Header from './Header'
+// import Subheader from './subheader'
+// import Test from './Test'
+// import Footer from './Footer'
+import Task from './task'
 
-function App() {
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div>
+      
 
+
+
+
+
+      {/* <Header></Header>
+
+      <Subheader></Subheader>
+      <Subheader></Subheader> */}
+      {/* <Test></Test>
+
+      <Footer></Footer>
+   */}
+
+   <Task name="User I'd " password="Forget Password">
+
+    <p>dftyfdrtygftyhgftyhvdsserfghj</p>
+    <h1>i am iokey with these</h1>
+   </Task>
+
+   
+
+
+
+
+
+    </div>
+  )  
+
+  
+}
 export default App;
